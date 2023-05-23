@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #4c6ef5;
+  --secondary-color: #364fc7;
+  --grey-0: #191c1f;
+  --grey-1: #212529;
+  --grey-2: #343a40;
+  --grey-3: #adb5bd;
+  --grey-4: #ced4da;
+  --grey-5: #f8f9fa;
+  
+	--font-family: 'Inter', sans-serif;
+  
+  --weight-title-1: 600;
+  --weight-title-2: 400;
+  --size-title-1: 52px;
+  --size-title-2: 40px;
+  --size-title-3: 32px;
+  --height-title-1: 72px;
+  --height-title-2: 64px;
+  --height-title-3: 44px; 
+  
+  --weight-text-1: 400;
+  --weight-text-2: 500;
+  --size-text-1: 28px;
+  --size-text-2: 20px;
+  --size-text-3: 18px;
+  --size-text-4: 14px;
+  --height-text-1: 44px;
+  --height-text-2: 30px;
+  --height-text-3: 27px;
+  --height-text-4: 21px;
+}
+
+.container__tittle1 span{
+  color: var(--primary-color);
+}
+
+li {
+  list-style: none;
+}
+
+

@@ -1,0 +1,94 @@
+#myModal{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: var(--font-family);
+  background-color: var(--grey-1);
+  padding: 40px 28px;
+  gap: 31px;
+  position: absolute;
+  width: 504px;
+  height: 397px;
+  left: 612px;
+  top: 100px;
+  border: 2px solid var(--primary-color);
+}
+
+.titleModal{
+  font-size: var(--size-text-2);
+  font-weight: var(--weight-title-1);
+  line-height: var(--height-text-2);
+  width: 89px;
+height: 30px;
+color: var(--grey-5);
+}
+
+#closeModal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--size-text-3);
+  font-weight: var(--weight-title-2);
+  background-color: var(--grey-2);
+  color: var(--grey-3);
+  width: 38px;
+  height: 32px;
+  border: none;
+  cursor: pointer;
+}
+
+.div__modal{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: var(--grey-1);
+}
+
+.textModal{
+  font-size: var(--size-text-4);
+  font-weight: var(--weight-title-2);
+  line-height: var(--height-text-4);
+  color: var(--grey-5);
+}
+
+.formModal{
+  width: 448px;
+  height: 60px;
+  background-color: var(--grey-0);
+}
+
+.inputText{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  font-size: var(--size-text-3);
+  font-weight: var(--weight-title-2);
+  line-height: var(--height-text-2);
+  padding: 14px 20px;
+  gap: 10px;
+  width: 448px;
+  border: none;
+  background-color: var(--grey-0);
+
+ 
+}
+
+#listNextClass{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--size-text-4);
+  font-weight: var(--weight-title-1);
+  line-height: var(--height-text-4);
+  padding: 0px 32px;
+  gap: 10px;
+  width: 448px;
+  height: 60px;
+  margin-top: 30px;
+  background-color: var(--primary-color);
+  color: var(--grey-5);
+  border: none;
+  cursor: pointer;
+}

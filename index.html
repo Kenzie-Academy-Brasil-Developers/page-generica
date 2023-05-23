@@ -5,16 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="./src/scripts/script.js" defer></script>
-    <link rel="stylesheet" href="./src/styles/style.css">
-    <!-- <link rel="stylesheet" href="./src/styles/reset.css"> -->
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/global.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    
 
     <title>Página Institucional Genérica</title>
 </head>
 <body>
     <header class="header">
         <p class="header__text">Generic Course</p>
-        <button class="header__btn">Entrar para a próxima turma</button>
+        <button id="openModal" class="header__btn">Entrar para a próxima turma</button>
     </header>
+    <dialog id="myModal">
+        <div class="div__modal">
+            <h2 class="titleModal">Cadastro</h2>
+            <button id="closeModal">X</button>
+        </div>
+        <p class="textModal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est et soluta, ipsam distinctio tempore deleniti iure veritatis at? Illum exercitationem amet quaerat</p>
+        <form class="formModal">
+            <input class="inputText" type="text" placeholder="Digitar email">
+            <button id="listNextClass">Entrar na lista para próxima turma</button>
+        </form>
+      </dialog>
     <main>
         <div class="container__div1">
             <h1 class="container__tittle1">Desenvolvendo <span>suas</span> próximas habilidades</h1>
@@ -53,9 +66,9 @@
             </div>
         </section >
         <section class="section__secundary">
-            <div >
-                <ul class="section__secundary_div1">
-                    <li>
+            <div class="section__secundary_div1">
+                <ul >
+                    <li class="secundary__list">
                         <div class="list__item_div">
                             <span class="secundary__div_span">
                                 <h3 class="secundary__span_tittle">Júlia Lima</h3>
@@ -64,7 +77,7 @@
                             <p class="secundary__div_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A veritatis nisi distinctio eaque, dignissimos deleniti nesciunt molestiae incidunt ex id corporis saepe dolore et culpa, consequuntur sequi. Aspernatur, similique sit.</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="secundary__list">
                         <div  class="list__item_div">
                             <span class="secundary__div_span">
                                 <h3 class="secundary__span_tittle">Carlos Silva</h3>
@@ -73,7 +86,7 @@
                             <p class="secundary__div_text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id maxime dolores vitae adipisci repudiandae ipsa cumque sint nemo qui mollitia consequatur quo numquam, animi deserunt placeat. Minima veritatis deleniti velit.</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="secundary__list">
                         <div class="list__item_div">
                             <span class="secundary__div_span">
                                 <h3 class="secundary__span_tittle">Camila Souza</h3>
@@ -82,7 +95,7 @@
                             <p class="secundary__div_text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere, a veritatis, nostrum culpa accusantium libero deserunt quasi sit quaerat doloribus commodi dolor accusamus deleniti aperiam eius! Neque doloribus esse alias.</p>
                         </div>
                     </li>
-                    <li>
+                    <li class="secundary__list">
                         <div class="list__item_div">
                             <span class="secundary__div_span">
                                 <h3 class="secundary__span_tittle">Matheus Erick</h3>
@@ -102,6 +115,5 @@
     <footer>
         <h3>Generic Course</h3>
     </footer>
-    <script src="./src/scripts/script.js"></script>
 </body>
 </html>
