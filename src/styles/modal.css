@@ -1,17 +1,20 @@
 #myModal{
-  display: flex;
   flex-direction: column;
   align-items: flex-start;
   font-family: var(--font-family);
   background-color: var(--grey-1);
   padding: 40px 28px;
   gap: 31px;
-  position: absolute;
+  position: fixed;
   width: 504px;
   height: 397px;
-  left: 612px;
-  top: 100px;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
   border: 2px solid var(--primary-color);
+  z-index: 1;
+  overflow: hidden;
+ 
 }
 
 .titleModal{
@@ -19,8 +22,9 @@
   font-weight: var(--weight-title-1);
   line-height: var(--height-text-2);
   width: 89px;
-height: 30px;
-color: var(--grey-5);
+  height: 30px;
+  color: var(--grey-5);
+
 }
 
 #closeModal{
@@ -43,6 +47,7 @@ color: var(--grey-5);
   align-items: center;
   width: 100%;
   background-color: var(--grey-1);
+
 }
 
 .textModal{
@@ -50,6 +55,7 @@ color: var(--grey-5);
   font-weight: var(--weight-title-2);
   line-height: var(--height-text-4);
   color: var(--grey-5);
+  margin: 30px 0px;
 }
 
 .formModal{
@@ -70,6 +76,7 @@ color: var(--grey-5);
   width: 448px;
   border: none;
   background-color: var(--grey-0);
+  color:  var(--grey-5);
 
  
 }
@@ -91,4 +98,20 @@ color: var(--grey-5);
   color: var(--grey-5);
   border: none;
   cursor: pointer;
+}
+
+.body-blur{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  backdrop-filter: blur(500px); 
+  z-index: 9999; 
+ 
+}
+
+.modal-open .body-blur {
+  display: block; 
 }
