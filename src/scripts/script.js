@@ -12,18 +12,18 @@ function classKenzie(){
   openModalBtn.addEventListener("click",function(){
     myModal.showModal()
     emailInput.value = "";
-    bodyBlur.classList.add("modal-open");
+    document.body.classList.add("modal-open");
 
   })
 
   closeModalBtn.addEventListener('click', () => {
     myModal.close();
-    bodyBlur.classList.remove("modal-open");
+    document.body.classList.remove("modal-open")
   });
 
   sendEmailBtn.addEventListener('click', () => {
     myModal.close();
-    bodyBlur.classList.remove("modal-open");
+    document.body.classList.remove("modal-open")
   });
 
 }

@@ -1,36 +1,6 @@
 /* ------------------------------- Coloque sua estilização aqui ------------------------------- */
-
-.header{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  height: 100px;
-  background-color: var(--grey-0);
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-} 
-
-.header__text{
-  color: var(--grey-5) ;
-  font-size: var(--size-text-2);
-  font-weight: var(--weight-text-2);
-  font-family: var(--font-family);
-}
-
-.header__btn{
-  background-color: var(--grey-0);
-  color: var(--grey-5);
-  font-size: var(--size-text-4);
-  font-family: var(--font-family);
-  width: 240px;
-  height: 60px;
-  padding: 0px 20px;
-  border: 1px solid var(--grey-5);
-  cursor: pointer;
-}
+@import './header.css';
+@import './footer.css';
 
 .container__div1{
   display: flex;
@@ -38,8 +8,10 @@
   align-items: center;
   flex-direction: column;
   height: 780px;
+  width: 100vw;
   background-color: var(--grey-1);
   gap: 40px;
+  padding-top: 100px;
 }
 
 .container__tittle1{
@@ -52,6 +24,10 @@
 }
 
 .container__text1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: var(--size-text-2);
   font-weight: var(--weight-text-2);
   line-height: var(--height-text-2);
@@ -59,7 +35,7 @@
   color: var(--grey-3);
   text-align: center;
   width: 850px;
-  height: 60px;
+  height: 80px;
 }
 
 .container__btn{
@@ -69,9 +45,10 @@
   font-family: var(--font-family);
   background-color: var(--primary-color);
   color: var(--grey-5);
-  margin: 40px;
+  margin: 30px;
   width: 133px;
   height: 60px;
+  cursor: pointer;
 }
 
 .container__div2{
@@ -93,7 +70,6 @@
   color: var(--grey-5);
   width: 285px;
   height: 45px;
- 
 }
 
 .container__text2{
@@ -104,7 +80,6 @@
   color: var(--grey-4);
   width: 611px;
   height: 120px;
-
 }
 
 .section__primary{
@@ -164,6 +139,7 @@
   width: 241px;
   height: 60px;
   margin-top: 25px;
+  cursor: pointer;
 }
 
 .section__container2{
@@ -209,7 +185,7 @@
   top: 77px;
   
 }
-/* --------------------------------------------------------- */
+
 .section__secundary {
   display: flex;
   flex-direction: row;
@@ -217,9 +193,9 @@
   padding: 100px 236px;
   gap: 60px;
   height: 1040px;
+  width: 100vw;
   background-color: var(--grey-1);
   color: var(--grey-5);
-  position: relative;
 }
 
 .section__secundary_div1 {
@@ -228,7 +204,6 @@
   justify-content: space-between;
   width: 746px;
   height: 840px;
-  position: relative;
 }
 
 .list__item_div {
@@ -236,7 +211,6 @@
   width: 746px;
   height: 135px;
   margin-bottom: 80px;
-  position: relative;
 }
 
 .secundary__div_span {
@@ -244,7 +218,7 @@
   flex-direction: column;
   width: 197.69px;
   height: 77px;
-  position: relative;
+
 }
 
 .secundary__span_tittle {
@@ -255,7 +229,6 @@
   color: var(--grey-5);
   width: 197.69px;
   height: 42px;
-  position: relative;
 }
 
 .secundary__span_text {
@@ -266,7 +239,6 @@
   color: var(--grey-3);
   width: 181.13px;
   height: 27px;
-  position: relative;
 }
 
 .secundary__div_text {
@@ -277,7 +249,6 @@
   color: var(--grey-3);
   width: 492.68px;
   height: 135px;
-  position: relative;
 }
 
 .section__secundary_div2 {
@@ -285,12 +256,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 80px 52px;
+  padding: 52px 52px;
   gap: 35px;
   width: 500px;
   height: 460px;
   background-color: var(--primary-color);
-  position: relative;
 }
 
 .div__tittle {
@@ -301,7 +271,6 @@
   color: var(--grey-5);
   width: 342px;
   height: 90px;
-  position: relative;
 }
 
 .div__text {
@@ -312,21 +281,5 @@
   color: var(--grey-5);
   width: 360px;
   height: 170px;
-  position: relative;
 }
 
-footer{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: var(--grey-5) ;
-  font-size: var(--size-text-4);
-  font-weight: var(--weight-text-2);
-  font-family: var(--font-family);
-  background-color: var(--grey-0);
-  color: var(--grey-5);
-  height: 119px; 
-  position: relative;
- 
-}
