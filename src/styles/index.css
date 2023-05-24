@@ -2,7 +2,7 @@
 @import './header.css';
 @import './footer.css';
 
-.container__div1{
+.div__container__primary{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@
   padding-top: 100px;
 }
 
-.container__tittle1{
+.primary__title{
   line-height: var(--height-title-1);
   font-weight: var(--height-title-1);
   font-size: var(--size-title-1);
@@ -23,7 +23,7 @@
   height: 73px;
 }
 
-.container__text1{
+.primary__text{
   text-align: center;
   display: flex;
   justify-content: center;
@@ -38,7 +38,7 @@
   height: 80px;
 }
 
-.container__btn{
+.primary__btn{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +51,7 @@
   cursor: pointer;
 }
 
-.container__div2{
+.div__container__secundary{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -62,7 +62,7 @@
   padding: 82px 236px;
 }
 
-.container__tittle2{
+.secundary__tittle{
   font-size: var(--size-title-3);
   font-weight: var(--weight-title-2);
   line-height: var(--height-title-3);
@@ -72,7 +72,7 @@
   height: 45px;
 }
 
-.container__text2{
+.secundary__text{
   font-size: var(--size-text-2);
   font-weight: var(--weight-text-3);
   line-height: var(--height-text-2);
@@ -82,7 +82,7 @@
   height: 120px;
 }
 
-.section__primary{
+.section__container-primary{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -96,7 +96,7 @@
   top: 1151px;
 }
 
-.section__container1{
+.div__container-1{
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -105,7 +105,7 @@
   gap: 20px;
 }
 
-.section_container_tittle2{
+.div-title-1{
   font-size: var(--size-title-2);
   font-weight: var(--weight-title-1);
   line-height: var(--height-title-2);
@@ -115,7 +115,7 @@
   height: 64px;
 }
 
-.section_container_text{
+.div_text-1{
   font-size: var(--size-text-3);
   font-weight: var(--weight-text-1);
   line-height: var(--height-text-3);
@@ -125,7 +125,7 @@
   height: 81px;
 }
 
-.section_container_btn{
+.div-btn-1{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -142,7 +142,7 @@
   cursor: pointer;
 }
 
-.section__container2{
+.div__container-2{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -151,13 +151,13 @@
   gap: 60px;
 }
 
-.section__span{
+.span__container{
   width: 614px;
   height: 197px;
   position: relative;
 }
 
-.section_container2_tittle3{
+.span__title-2{
   font-size: var(--size-text-1);
   font-weight: var(--weight-title-1);
   line-height: var(--height-title-3);
@@ -171,7 +171,7 @@
   height: 45px;
 }
 
-.section_container2_text{
+.span__text-2{
   font-size: var(--size-text-2);
   font-weight: var(--weight-text-1);
   line-height: var(--height-text-2);
@@ -186,7 +186,7 @@
   
 }
 
-.section__secundary {
+.section__container-secundary{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -198,7 +198,7 @@
   color: var(--grey-5);
 }
 
-.section__secundary_div1 {
+.div__secundary {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -206,14 +206,14 @@
   height: 840px;
 }
 
-.list__item_div {
+.secundary__list {
   display: flex;
   width: 746px;
   height: 135px;
   margin-bottom: 80px;
 }
 
-.secundary__div_span {
+.secundary__span{
   display: flex;
   flex-direction: column;
   width: 197.69px;
@@ -221,7 +221,7 @@
 
 }
 
-.secundary__span_tittle {
+.secundary__span_title {
   font-size: var(--size-text-1);
   font-weight: var(--weight-text-2);
   line-height: var(--height-title-3);
@@ -241,7 +241,7 @@
   height: 27px;
 }
 
-.secundary__div_text {
+.secundary__text {
   font-size: var(--size-text-3);
   font-weight: var(--weight-text-1);
   line-height: var(--height-text-3);
@@ -251,7 +251,7 @@
   height: 135px;
 }
 
-.section__secundary_div2 {
+.div__third {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -263,7 +263,7 @@
   background-color: var(--primary-color);
 }
 
-.div__tittle {
+.third__title {
   font-size: var(--size-title-3);
   font-weight: var(--weight-title-2);
   line-height: var(--height-title-3);
@@ -273,7 +273,7 @@
   height: 90px;
 }
 
-.div__text {
+.third__text {
   font-size: var(--size-text-3);
   font-weight: var(--weight-text-1);
   line-height: var(--height-text-3);
