@@ -51,6 +51,12 @@
   cursor: pointer;
 }
 
+.primary__btn:hover {
+  color: var(--grey-5);
+  background-color: var(--secondary-color);
+  border: none;
+}
+
 .div__container__secundary{
   display: flex;
   flex-direction: row;
@@ -140,6 +146,12 @@
   height: 60px;
   margin-top: 25px;
   cursor: pointer;
+}
+
+.div-btn-1:hover {
+  color: var(--grey-5);
+  background-color: var(--secondary-color);
+  border: none;
 }
 
 .div__container-2{

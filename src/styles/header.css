@@ -29,3 +29,9 @@
   border: 1px solid var(--grey-5);
   cursor: pointer;
 }
+
+.header__btn:hover{
+  color: var(--grey-5);
+  background-color: var(--secondary-color);
+  border: none;
+}
